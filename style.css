@@ -1,0 +1,28 @@
+.container {
+    margin: 50px auto;
+    padding: 20px 100px;
+    background-color: #B91450;
+}
+
+label {
+    margin-bottom: 10px;
+    color: #B91450;
+    text-align: center;
+}
+
+#età {
+    border-radius: 5px;
+    border: 1px solid #dc3545;
+    padding: 6px;
+}
+
+.btn {
+    border: 2px solid #B91450;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #B91450;
+    background-color: lightgrey;
+    margin: 0 20px;
+    padding: 10px 30px;
+}
