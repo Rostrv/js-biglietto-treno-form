@@ -51,3 +51,16 @@ btnGenerate.addEventListener("click",
     }
 
 )
+
+let btnReset = document.getElementById("reset");
+btnReset.addEventListener("click",
+    function reset() {
+        document.getElementById("passenger").innerHTML = "";
+        document.getElementById("discount").innerHTML = "";
+        document.getElementById("ticket-price").innerHTML = "";
+        document.getElementById("wagon").innerHTML = "";
+        document.getElementById("cp-code").innerHTML = "";
+
+
+    }
+)
